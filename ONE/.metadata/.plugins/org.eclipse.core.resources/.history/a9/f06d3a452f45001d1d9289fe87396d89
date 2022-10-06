@@ -1,0 +1,31 @@
+package p1;
+
+public class String6 
+{
+
+	public static void main(String[] args) 
+	{
+		String ab= "The Departed";
+		String[]cd= ab.split(" ");
+		String ef=null;
+		String gh=null;
+		innt i=0;
+		
+		for(int i=1;i<cd.length;i++)
+		{
+		 ef=cd[i];
+		 System.out.print("cd[0] ");
+		}
+		String []mn=ef.split("");
+		//System.out.print("cd[0] ");
+	
+		
+
+for(int j=mn.length-1;j>=0;j--)
+{
+	System.out.print(mn[j]);
+}
+	
+	}
+
+}

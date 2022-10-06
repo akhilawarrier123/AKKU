@@ -1,0 +1,27 @@
+package p1;
+
+public class String3 {
+
+	public static void main(String[] args) 
+	
+	{
+			String a = "Kolkata";
+			//System.out.println(a.length());	
+			String[]vb=a.split("");
+			{ System.out.println(vb.length);		
+            }
+
+
+for(int i=0;i<vb.length;i++) 
+{
+	if( i!=6);
+System.out.println(vb[i]); 
+}
+
+} 
+	}
+
+				
+			
+	
+

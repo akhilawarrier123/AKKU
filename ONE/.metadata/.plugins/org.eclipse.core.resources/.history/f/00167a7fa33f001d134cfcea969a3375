@@ -1,0 +1,22 @@
+package p1;
+
+public class String2 
+{
+
+	public class length
+	{
+		Static int customLength(String abc)
+		{
+			String[]vb=abc.split("");
+			int count=0;
+			for(int i=0;i<vb.length;i++)
+			{
+				if(i<vb.length)
+				{
+					count++;za
+					
+				}
+			}
+		return count
+	}
+	    		
