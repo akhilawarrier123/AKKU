@@ -8,16 +8,16 @@ public class String6
 		String ab= "The Departed";
 		String[]cd= ab.split(" ");
 		String ef=null;
-		String gh=null;
+
 		
 		
 		for(int i=1;i<cd.length;i++)
 		{
 		 ef=cd[i];
-		 System.out.print("cd[0] ");
+		 System.out.print(cd[0]+" ");
 		}
 		String []mn=ef.split("");
-		//System.out.print("cd[0] ");
+		
 	
 		
 

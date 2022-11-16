@@ -1,0 +1,41 @@
+package p1;
+
+public class replace 
+{
+	public static void Letter(String a, String e, String f)
+	{
+
+   String m=null;
+   String v=null;
+	String[]z=a.split("");
+
+	for(int i=0;i<=z.length;)
+	{
+		if(e.equals(z[i]))
+		{
+			m=z[i];
+			z[i]=f;
+			v=z[i];
+		}	
+		
+		}
+		
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) 
+	{
+		//String n="WELCOME";
+		//String b= "C";
+		//String d= "K";
+		replace.Letter("WELCOME","C","K");
+		System.out.println("q");
+	}
+
+}
